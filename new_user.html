@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Boxicons CSS/Icons-Packs -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/custom.css">
+
+    <!-- Dhruv's Login Css Files -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/signin.css">
+
+    <title>Log-In/Sign-Up</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-signin">
+            <h2 class="text-center">
+                Newbies
+            </h2>
+            <p class="text-center" style="font-size: 0.85rem;">
+            Let's have an introduction</p>
+        </div>
+        <form class="form-signin">
+            <label for="inputUsername" class="sr-only">username</label>
+            <input type="text" id="inputUsername" class="form-control my-2" placeholder="Enter Your Name." required>
+            <label for="inputPassword" class="sr-only">Password</label>
+            <input type="password" id="inputPassword" class="form-control my-2" placeholder="Enter Your Password." required> 
+            <div class="radio my-3">
+                <label>
+                  <input type="radio" value="Male" class="mx-1" name="gender"> Male
+                </label>
+                <label>
+                    <input type="radio" value="Female" class="mx-1" name="gender"> Female
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                  <input type="checkbox" value="terms-conditions"
+                  class="mx-1">
+                  I’m over 13 years of age and agree to Gaana
+                  <a href="#" class="mx-4">Terms and Conditions</a>
+                </label>
+            </div>
+            <a href="#" class="btn btn-lg btn-block btn-style my-3" type="submit">Continue</a>
+        </form>
+    </div>
+</body>
+</html>

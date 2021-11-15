@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+*{
+  padding: 0;
+  margin: 0%;
+  box-sizing: border-box;
+}
+:root{
+  --maincolor :#f5f5f5;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color:var(--maincolor);
+  font-family: 'Poppins', sans-serif;
+}
+.form-control{
+  border-width: 0 0 1px 0;
+  background-color: #f5f5f5;
+}
+.form-control:focus{
+  outline: none;
+}
+.form-signin {
+  width: 100%;
+  max-width: 375px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.btn-style{
+  border: none;
+  background-color: #2daf4b;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  border-radius: 10rem;
+  transition-property: background-color;
+  transition-timing-function: all;
+  transition-duration: 0.4s;
+}
+.btn-style:hover{
+  background-color: #3cce5e;;
+}
+.size{
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.radius{
+  border-radius: none;
+}
+._btn{
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  border-radius: 30px;
+  height: 35px;
+  width: 100%;
+  padding: 0 8%;
+  justify-content: center;
+  box-shadow: 0 1px 5px rgb(0 0 0 / 20%);
+}
+
+#facebook:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+._facebook{
+  background-color: #3A559F;
+  color: #fff;
+}
+._line{
+  position: relative;
+}
+._line span::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 1px;
+  width: 50%;
+  left: 0;
+  background-color: rgba(0,0,0,.2);
+  z-index: -1;
+}
+._line span::after{
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 1px;
+  width: 50%;
+  right: 0;
+  background-color: rgba(0,0,0,.2);
+  z-index: -1;
+}
+._line span{
+  background-color: #f5f5f5;
+  padding: 0px 10px;
+}
+
+#google{
+  color: #000;
+}
