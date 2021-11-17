@@ -16,7 +16,7 @@ const durTime = document.querySelector('.song_length');
 
 // Song titles
 const songs = [
-  [1, 'Agar Tum Saath Ho' , 'Arijit Singh, Alka Yagnik'],
+  [1,'Agar Tum Saath Ho' , 'Arijit Singh, Alka Yagnik'],
   [2,'Baarish Lete Aana' , 'Darshan Raval'],
   [3,'Channa Mereya' , 'Arijit Singh'],
   [4,'Darkhaast' , 'Arijit Singh, Sunidhi Chauhan'],

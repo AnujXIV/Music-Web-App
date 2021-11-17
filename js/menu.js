@@ -9,7 +9,9 @@ let close_btn = document.querySelector(".bx-x");
 
 btn.onclick = function(){
     sidebar.classList.toggle("active");
+    sidebar.classList.add("glasseffect");
     menubtn.classList.toggle("active");
+
 
     if (!(sidebar_list.classList.contains('active'))) {
         sidebar_list.classList.toggle("active");
@@ -19,6 +21,7 @@ btn.onclick = function(){
 
 list_btn.onclick = function(){
     sidebar_list.classList.toggle("active");
+    sidebar_list.classList.add("glasseffect");
     playlistbtn.classList.toggle("active");
 
     if (!(sidebar.classList.contains('active'))) {
