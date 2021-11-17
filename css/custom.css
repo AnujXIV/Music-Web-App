@@ -538,12 +538,13 @@ body {
 }
 
 .trackplay {
-    display: flex;
+    display: inline-flex;
     justify-content: flex-start;
 }
 
 .fav {
-    right: 0;
+    /* right: 0; */
+    /* background-color: #E4405F; */
 }
 
 h3 {
@@ -564,13 +565,14 @@ h3 {
 }
 
 .songs {
+    /* background-color: #1DA1F2; */
     /* border: 4px solid #000022; */
     position: fixed;
     border-radius: 10px;
     margin: auto;
-    width: 100%;
+    width: 80vw;
     padding: 0.4rem;
-    height: 80vh;
+    height: 90vh;
     overflow-y: scroll;
     overflow-x: hidden;
     color: var(--sidebar-font-color);
