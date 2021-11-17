@@ -18,7 +18,6 @@
 
 body{
     background-color: var(--main_background-color);
-    background-attachment: fixed;
 }
 
 .sidebar_menu{
